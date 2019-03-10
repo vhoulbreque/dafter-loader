@@ -38,5 +38,5 @@ plugins:
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
+  "Data Loader on GitHub":
     - "//github.com/vinzeebreak/data-loader"
