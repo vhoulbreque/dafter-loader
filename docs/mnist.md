@@ -26,7 +26,7 @@ import os
 import gzip
 import pickle
 
-DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".datasets-data-fetcher", "mnist")
+DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".dafter", "mnist")
 DATASET_PATH = os.path.join(DATA_FOLDER, "mnist.pkl.gz")
 
 with gzip.open(DATASET_PATH, "rb") as f:
@@ -41,7 +41,7 @@ import gzip
 import numpy
 import pickle
 
-DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".datasets-data-fetcher", "mnist")
+DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".dafter", "mnist")
 DATASET_PATH = os.path.join(DATA_FOLDER, "mnist.pkl.gz")
 
 with gzip.open(DATASET_PATH, 'rb') as f:
