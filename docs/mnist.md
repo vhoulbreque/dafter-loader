@@ -21,16 +21,35 @@ nav_order: 2
 
 ### In Python
 
+#### Python 3
+
 ```python
+import os
 import gzip
 import pickle
 
-from os.path import expanduser
-DATASET_PATH = os.path.join(expanduser("~"), ".datasets-data-fetcher", "mnist")
+DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".datasets-data-fetcher", "mnist")
+DATASET_PATH = os.path.join(DATA_FOLDER, "mnist.pkl.gz")
 
 with gzip.open(DATASET_PATH, "rb") as f:
+    train_set, valid_set, test_set = pickle.load(f, encoding='latin1')
+```
+
+#### Python 2
+
+```python
+import os
+import gzip
+import numpy
+import pickle
+
+DATA_FOLDER = os.path.join(os.path.expanduser("~"), ".datasets-data-fetcher", "mnist")
+DATASET_PATH = os.path.join(DATA_FOLDER, "mnist.pkl.gz")
+
+with gzip.open(DATASET_PATH, 'rb') as f:
     train_set, valid_set, test_set = pickle.load(f)
 ```
+
 
 ## Description
 
