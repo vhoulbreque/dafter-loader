@@ -19,8 +19,6 @@ nav_order: 2
 
 ## Load MNIST
 
-### In Python
-
 #### Python 3
 
 ```python
