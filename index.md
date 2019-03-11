@@ -46,6 +46,16 @@ To delete the mnist dataset, do:
 dafter delete mnist
 ```
 
+To search for the available datasets with particular tags, say `image` and `deep-learning`, do:
+```
+dafter search image deep-learning
+```
+
+To list all the downloaded datasets do:
+```
+dafter list
+```
+
 ## Uninstall dafter
 
 There are 2 ways of uninstalling dafter,
