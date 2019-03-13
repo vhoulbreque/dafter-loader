@@ -46,14 +46,22 @@ To delete a dataset from the downloaded datasets, do:
 dafter delete mnist
 ```
 
-To search for the available datasets with particular tags, say `image` and `deep-learning`, do:
-```
-dafter search image deep-learning
+To search among available datasets:
+```bash
+# Search all available datasets
+dafter search
+# Search all available datasets that have the tags "image" and "deep-learning"
+# and whose name contains "mni"
+dafter search mni --tags image deep-learning
 ```
 
-To list all the downloaded datasets do:
-```
+To list all downloaded datasets:
+```bash
+# Lists all datasets in database
 dafter list
+# Lists all datasets in database that have the tag "twitter" and whose name
+# contains "sentiment"
+dafter list sentiment --tags twitter
 ```
 
 ## Uninstall dafter
