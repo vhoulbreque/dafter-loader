@@ -9,27 +9,25 @@ permalink: /
 # Focus on building good models
 {: .fs-9 }
 
-### Ancient times
+Dafter is a homebrew-like dataset downloader.
+{: .fs-6 .fw-300 }
 
-Before dafter, you used to spend several hours finding the right dataset that you needed. Sometimes, it's after several days that you found it. And when you finally did find it, you noticed that the header of the first csv file was missing and that the extension was wrong..
-It was a nightmare.
+Before **dafter**, you used to spend hours looking for the perfect dataset that you needed. And when you finally found it, you noticed that the header of the first *csv* file was missing and that the extension was wrong..  
 
-### Now
-
-With dafter, things are getting better because you just need to do this:
+With **dafter**, things are getting better because now, you just need to do this:
 
 ```bash
-dafter get mnist
+dafter get mnist  # Example with the MNIST dataset
 ```
 
-and dafter takes care of downloading and formatting the dataset so that you can spend hours **building models** instead of looking for datasets. Then, you just go on the [MNIST page](https://vinzeebreak.github.io/dafter-loader/docs/mnist/) to copy/paste the code needed to load and use the dataset in any script.
+and **dafter** takes care of downloading and formatting the dataset's files so that you can spend hours **building models** instead of looking for datasets and their urls. Then, you just go on the [MNIST page](https://vinzeebreak.github.io/dafter-loader/docs/mnist/) to copy/paste the code needed to load and use the dataset in any script.
 Easy!
 
 {: .fs-6 .fw-300 }
 
 ## Install dafter
 
-To install dafter, just do:
+To install **dafter**, just do:
 ```bash
 curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/install.sh -sSf | bash -s -- --up-to-date
 ```
@@ -48,25 +46,30 @@ dafter delete mnist
 
 To search among available datasets:
 ```bash
-# Search all available datasets
+# Search datasets available for download
 dafter search
-# Search all available datasets that have the tags "image" and "deep-learning"
+```
+
+```bash
+# Search datasets available for download that have the tags "image" and "deep-learning"
 # and whose name contains "mni"
 dafter search mni --tags image deep-learning
 ```
 
-To list all downloaded datasets:
+To list already downloaded datasets:
 ```bash
-# Lists all datasets in database
+# Lists already downloaded datasets
 dafter list
-# Lists all datasets in database that have the tag "twitter" and whose name
-# contains "sentiment"
+```
+
+```bash
+# Lists already downloaded datasets that have the tag "twitter" and whose name contains "sentiment"
 dafter list sentiment --tags twitter
 ```
 
 ## Uninstall dafter
 
-There are 2 ways of uninstalling dafter,
+There are 2 ways of uninstalling **dafter**,
 
 ```
 dafter uninstall
@@ -76,12 +79,6 @@ curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/uninsta
 
 ## Contributing
 
-To contribute, there are 2 main repositories:  
-
-For the command line interface:  
-  [View dafter on GitHub](https://github.com/vinzeebreak/dafter){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
-For this website:  
-  [View this website on GitHub](https://github.com/vinzeebreak/dafter-loader){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View dafter on GitHub](https://github.com/vinzeebreak/dafter){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
