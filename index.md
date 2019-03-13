@@ -11,7 +11,7 @@ permalink: /
 
 ### Ancient times
 
-Before dafter, you used to spend several hours finding the right dataset that you needed. Sometimes, it's after several days that you found it. And when you finally did find it, you noticed that the header of the first csv file had a missing header and that the extension was wrong..
+Before dafter, you used to spend several hours finding the right dataset that you needed. Sometimes, it's after several days that you found it. And when you finally did find it, you noticed that the header of the first csv file was missing and that the extension was wrong..
 It was a nightmare.
 
 ### Now
@@ -36,12 +36,12 @@ curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/install
 
 ## Use dafter
 
-To download the mnist dataset, do:
+To download a dataset, say the `mnist` dataset, do:
 ```
 dafter get mnist
 ```
 
-To delete the mnist dataset, do:
+To delete a dataset from the downloaded datasets, do:
 ```
 dafter delete mnist
 ```
