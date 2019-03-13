@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Mnist
+title: MNIST
 nav_order: 2
 ---
 
-# MNIST
+# {{ page.title }}
 {: .no_toc }
 
 {: .fs-6 .fw-300 }
@@ -17,7 +17,13 @@ nav_order: 2
 
 ---
 
-## Load MNIST
+## Download {{ page.title }}
+
+```
+dafter get mnist
+```
+
+## Load {{ page.title }}
 
 #### Python 3
 

@@ -4,7 +4,7 @@ title: IMDB datasets
 nav_order: 2
 ---
 
-# IMDB datasets
+# {{ page.title }}
 {: .no_toc }
 
 {: .fs-6 .fw-300 }
@@ -17,7 +17,7 @@ nav_order: 2
 
 ---
 
-## Load IMDB datasets
+## Load {{ page.title }}
 
 #### Python 3
 
