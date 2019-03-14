@@ -1,6 +1,7 @@
 ---
 layout: default
-title: France Postal Code
+title: Montgomery County Salaries
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get france-postal-code
+dafter get montgomery-county-salaries
 ```

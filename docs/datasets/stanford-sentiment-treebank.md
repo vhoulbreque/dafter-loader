@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Sentiment140
+title: Stanford Sentiment Treebank
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get sentiment140
+dafter get stanford-sentiment-treebank
 ```

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Stanford Sentiment Treebank
+title: IMDB Most Popular
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get stanford-sentiment-treebank
+dafter get imdb-most-popular
 ```

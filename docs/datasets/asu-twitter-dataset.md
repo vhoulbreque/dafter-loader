@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Plants Database USDA
+title: ASU Twitter dataset
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get plants-database-usda
+dafter get asu-twitter-dataset
 ```

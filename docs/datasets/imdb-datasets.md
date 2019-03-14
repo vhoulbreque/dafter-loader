@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IMDB datasets
+parent: Datasets
 nav_order: 2
 ---
 

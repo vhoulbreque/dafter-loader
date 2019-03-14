@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Audio Covers
+title: Article Influence 2015
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get audio-covers
+dafter get article-influence-2015
 ```

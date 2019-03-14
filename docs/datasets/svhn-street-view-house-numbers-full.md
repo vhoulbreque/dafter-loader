@@ -1,6 +1,7 @@
 ---
 layout: default
-title: ASU Twitter dataset
+title: SVHN Street View House Numbers Full
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get asu-twitter-dataset
+dafter get svhn-street-view-house-numbers-full
 ```

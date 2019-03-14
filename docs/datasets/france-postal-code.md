@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Nutrient Database USDA
+title: France Postal Code
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get nutrient-database-usda
+dafter get france-postal-code
 ```

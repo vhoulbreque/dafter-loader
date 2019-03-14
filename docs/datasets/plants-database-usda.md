@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Article Influence 2015
+title: Plants Database USDA
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get article-influence-2015
+dafter get plants-database-usda
 ```

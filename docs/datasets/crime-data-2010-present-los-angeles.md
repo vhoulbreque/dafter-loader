@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Significant Earthquake database
+title: Crime Data 2010-present Los Angeles
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get significant-earthquake-database
+dafter get crime-data-2010-present-los-angeles
 ```

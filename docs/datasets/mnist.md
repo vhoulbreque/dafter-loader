@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MNIST
+parent: Datasets
 nav_order: 2
 ---
 

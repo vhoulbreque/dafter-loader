@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Montgomery County Traffic Violations
+title: Twenty newsgroups
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get montgomery-county-traffic-violations
+dafter get twenty-newsgroups
 ```

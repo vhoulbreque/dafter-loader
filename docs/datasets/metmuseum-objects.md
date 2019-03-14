@@ -1,6 +1,7 @@
 ---
 layout: default
-title: IMDB Most Popular
+title: Metmuseum Objects
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get imdb-most-popular
+dafter get metmuseum-objects
 ```

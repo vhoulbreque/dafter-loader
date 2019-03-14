@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Twenty newsgroups
+title: Audio Covers
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get twenty-newsgroups
+dafter get audio-covers
 ```

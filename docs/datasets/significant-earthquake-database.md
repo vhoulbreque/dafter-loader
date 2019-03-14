@@ -1,6 +1,7 @@
 ---
 layout: default
-title: SVHN Street View House Numbers Full
+title: Significant Earthquake database
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get svhn-street-view-house-numbers-full
+dafter get significant-earthquake-database
 ```

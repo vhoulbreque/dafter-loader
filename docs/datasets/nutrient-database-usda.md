@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Metmuseum Objects
+title: Nutrient Database USDA
+parent: Datasets
 nav_order: 2
 ---
 
@@ -20,5 +21,5 @@ nav_order: 2
 ## Download {{ page.title }}
 
 ```
-dafter get metmuseum-objects
+dafter get nutrient-database-usda
 ```

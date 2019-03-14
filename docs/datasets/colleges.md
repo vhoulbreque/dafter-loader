@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Colleges
+parent: Datasets
 nav_order: 2
 ---
 
