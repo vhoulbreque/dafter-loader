@@ -29,7 +29,7 @@ Easy!
 
 To install **dafter**, just do:
 ```bash
-curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/install.sh -sSf | bash -s -- --up-to-date
+curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/install.sh -sSf | bash
 ```
 
 ## Use dafter
