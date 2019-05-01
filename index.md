@@ -29,7 +29,7 @@ Easy!
 
 To install **dafter**, just do:
 ```bash
-curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/install.sh -sSf | bash
+pip install dafter
 ```
 
 ## Use dafter
@@ -69,12 +69,8 @@ dafter list sentiment --tags twitter
 
 ## Uninstall dafter
 
-There are 2 ways of uninstalling **dafter**,
-
-```
-dafter uninstall
-# or
-curl https://raw.githubusercontent.com/vinzeebreak/dafter-install/master/uninstall.sh -sSf | bash
+```bash
+pip uninstall dafter
 ```
 
 ## Contributing
